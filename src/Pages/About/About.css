@@ -1,0 +1,77 @@
+.hero-about {
+    position: relative;
+}
+
+.hero-about img{
+    position: absolute;
+    right: -250px;
+    top: 0;
+  
+}
+
+.hero-about .info{
+    width: 500px;
+    padding: 250px 0;
+}
+
+.hero-about .info h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.hero-about .info .btn{
+    margin-top: 20px;
+    background-color: #FA8305;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.hero-about .info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.work{
+    padding: 80px 0;
+}
+.work h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.work .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.work .blocks .block{
+    width: 30%;
+    border-radius: 10px;
+    padding: 50px 35px;
+    background: #1c140f;
+}
+
+.work .blocks .block h3{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.work .blocks .block .badge{
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+.work .blocks .block .badge.purple{
+    background-color: #7B61FF;
+}
+
+.work .blocks .block .badge.brown{
+    background-color: #31190d;
+}
+.work .blocks .block .badge.green{
+    background-color: #192a1d;
+}

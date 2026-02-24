@@ -1,0 +1,43 @@
+.tranding {
+    padding-top: 50px;
+}
+.tranding h3{
+   font-weight: bold;
+   font-size: 31px;
+}
+
+.tranding .see-all{
+    color: white;
+    background-color: #222121;
+    border-radius: 10px;
+    padding: 12px 30px;
+    float: right;
+    display: block;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tranding .see-all:hover{
+   transform: scale(1.1);
+}
+
+.games{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.games span{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.games span img {
+    position: relative;
+    top: 5px;
+    right: 8px;
+}

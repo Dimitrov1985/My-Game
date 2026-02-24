@@ -1,0 +1,88 @@
+.hero-contacts h1{
+    font-size: 33px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-contacts p{
+    font-size: 16px;
+    text-align: center;
+}
+.hero-contacts img{
+ width: 70%;
+ margin: 80px 15%;
+}
+
+.feedback{
+    padding: 70px 0;
+    background:#1c140f;
+}
+
+.feedback h2 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+.feedback p {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.feedback form {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.feedback form .inline{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback form .inline>div{
+    width: 50%;
+}
+
+.feedback form label {
+    color: #4f4f4f;
+    font-size: 14px;
+}
+
+.feedback form input,
+.feedback form textarea {
+    display: block;
+    background: #2c2420;
+    border-radius: 10px;
+    border: 0.6px solid #cecece;
+    width: 90%;
+    padding: 15px 10px;
+    outline: none;
+    color:white;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.feedback form .one-line{
+    width: 96%;
+}
+
+.feedback form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.feedback form button {
+   background: #dc7000;
+   color:white;
+   padding: 11px 40px;
+   border: none;
+   border-radius: 5px;
+   float: right;
+   cursor: pointer;
+   margin: 15px 20px;
+   transition: all 500ms ease;
+   margin-top: 10px;
+}
+.feedback form button:hover {
+    background:#b01414;
+}

@@ -1,0 +1,55 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    position: relative;
+}
+
+.hero--info {
+    max-width: 600px;
+    text-align: left; /* <-- ВАЖНО */
+}
+
+.hero--info h2 {
+    color: #f7971e;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero--info h1 {
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.hero--info p {
+    opacity: 0.8;
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.btn_info {
+    background: #f7971e;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero img {
+    position: absolute;
+    top: -150px;
+    right: 0;
+    z-index: -1;
+}
