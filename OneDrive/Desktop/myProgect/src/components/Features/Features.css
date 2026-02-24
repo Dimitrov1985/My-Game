@@ -1,0 +1,41 @@
+.features{
+    background: url(./img/bg.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.features h3, 
+.features p {
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.features h3{
+    font-size: 30px;
+}
+
+.features .info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 99px;
+}
+
+.block{
+    text-align: center;
+    width: 20%;
+    margin: 30px 2%;
+    position: relative;
+}
+
+.block img{
+    margin-bottom: 4px;
+}
+
+
+
+
+
+

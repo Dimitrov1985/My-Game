@@ -1,0 +1,19 @@
+.banner{
+    padding: 40px 0;
+}
+.banner h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.banner p{
+    line-height: 170%;
+    margin-bottom: 30px;
+    width: 545px;
+}   
+
+.banner img{
+    width: 100%;
+    margin-bottom: 30px;
+}

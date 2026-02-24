@@ -1,0 +1,40 @@
+.projects{
+    padding: 80px 0;
+
+}
+
+.projects h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.projects p{
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    line-height: 170%;
+}
+.projects .images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 33px;
+}
+
+.projects .see-all{
+    background-color: #222121;
+    border-radius: 10px;
+    padding: 12px 30px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+     
+.projects .see-all:hover{
+   transform: scale(1.1);
+}
